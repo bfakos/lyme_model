@@ -18,7 +18,7 @@
 # lines(prediction_future$LB, col = "red")
 
 # Inputs (arguments):
-# 	T: numeric vector with 52 or n * 52 elements, weekly mean temperature values (°C), starting from the 1st week of January
+# 	T: numeric vector with 52 or n * 52 elements, weekly mean temperature values (Â°C), starting from the 1st week of January
 # 	HM: numeric vector with 52 elements or NULL/NA, holiday multiplier of the weeks. If NULL/NA, default is used.
 # 	delta: numeric vector with one element (>=0) or NULL/NA, weight parameter of Model I., season 1. If NULL/NA, default is used.
 # 	weight_factors: numeric vector with 52 elements or NULL/NA, weight factors of Model II, starting from the -52th week, ending with the -1st week. If NULL/NA, default (model C) is used.
